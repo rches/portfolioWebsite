@@ -1,0 +1,25 @@
+body{
+	background-color: #FDFFFC;
+	
+}
+
+.navbar-fixed{
+	background-color: #36C0AE;
+	position: fixed;
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+}
+
+.icon-bar{
+	background-color: #011627;
+}
+
+.nav a:hover {
+  background-color: #011627;
+  color: black;
+}
+
+.top-content{
+	padding-top: 75px;
+}
