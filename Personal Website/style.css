@@ -1,9 +1,25 @@
+/* COLOR PALLET
+
+#011627
+
+#f71735
+
+#36c0ae
+
+#fdfffc
+
+#ff9f1c
+
+*/
+
+
 body{
 	background-color: #FDFFFC;
+	position: relative; 
 	
 }
 
-.navbar-fixed{
+.navbar-fixed-top{
 	background-color: #36C0AE;
 	position: fixed;
 	width:100%;
@@ -21,5 +37,16 @@ body{
 }
 
 .top-content{
-	padding-top: 75px;
+	padding-top: 50px;
+}
+
+li.active a { 
+	color: #011627 !important; 
+	background-color: #FDFFFC; 
+}
+
+.jumbotron{
+	color: #011627;
+	background-color: #FF9F1C;
+	display: flex;
 }
