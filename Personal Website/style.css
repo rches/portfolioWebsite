@@ -1,22 +1,16 @@
 /* COLOR PALLET
-
 #011627
-
 #f71735
-
 #36c0ae
-
 #fdfffc
-
 #ff9f1c
-
 */
 
 
 body{
 	background-color: #FDFFFC;
-	position: relative; 
-	
+	position: relative;
+
 }
 
 .navbar-fixed-top{
@@ -33,20 +27,72 @@ body{
 
 .nav a:hover {
   background-color: #011627;
-  color: black;
+  color: #011627;
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);
 }
 
 .top-content{
 	padding-top: 50px;
 }
 
-li.active a { 
-	color: #011627 !important; 
-	background-color: #FDFFFC; 
+li.active a {
+	color: #011627 !important;
+	background-color: #FDFFFC;
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);
 }
 
 .jumbotron{
 	color: #011627;
 	background-color: #FF9F1C;
 	display: flex;
+	box-shadow: inset 0px 0px 45px 0px rgba(0, 0, 0, 0.3), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+	height: 50vh;
+}
+
+.homeSectionOne{
+	color: #011627;
+	background-color: #F71735;
+	display: flex;
+	box-shadow: inset 0px 0px 45px 0px rgba(0, 0, 0, 0.3), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+	height: 50vh;
+}
+
+.homeSectionTwo{
+	color: #011627;
+	background-color: #FF9F1C;
+	display: flex;
+	box-shadow: inset 0px 0px 45px 0px rgba(0, 0, 0, 0.3), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+	height: 50vh;
+}
+
+@media screen and (max-width: 860px) {
+li.active a{
+	transform: scale(none);
+}
+}
+
+@media screen and (max-width: 1020px) {
+	li.active a{
+		transform: scale(none);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	li.active a{
+		transform: scale(none);
+	}
+}
+
+@media screen and (max-width: 620px) {
+	li.active a{
+		transform: scale(none);
+	}
+}
+
+@media screen and (max-width: 420px) {
+	li.active a{
+		transform: scale(none);
+	}
 }
