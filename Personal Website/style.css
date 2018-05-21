@@ -29,7 +29,7 @@ body{
   background-color: #011627;
   color: #011627;
 	transition: all .2s ease-in-out;
-	transform: scale(1.1);
+
 }
 
 .top-content{
@@ -40,15 +40,18 @@ li.active a {
 	color: #011627 !important;
 	background-color: #FDFFFC;
 	transition: all .2s ease-in-out;
-	transform: scale(1.1);
+
 }
 
-.jumbotron{
+.headBanner{
 	color: #011627;
 	background-color: #FF9F1C;
 	display: flex;
 	box-shadow: inset 0px 0px 45px 0px rgba(0, 0, 0, 0.3), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
-	height: 50vh;
+	height: 100vh;
+	padding-top: 50px;
+	overflow: hidden;
+	font-size: 1em;
 }
 
 .homeSectionOne{
@@ -56,7 +59,10 @@ li.active a {
 	background-color: #F71735;
 	display: flex;
 	box-shadow: inset 0px 0px 45px 0px rgba(0, 0, 0, 0.3), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
-	height: 50vh;
+	height: 100vh;
+	padding-top: 50px;
+	overflow: hidden;
+	font-size: 1em;
 }
 
 .homeSectionTwo{
@@ -64,35 +70,26 @@ li.active a {
 	background-color: #FF9F1C;
 	display: flex;
 	box-shadow: inset 0px 0px 45px 0px rgba(0, 0, 0, 0.3), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
-	height: 50vh;
+	height: 100vh;
+	padding-top: 50px;
+	overflow:hidden;
+	font-size: 1em;
+
 }
 
-@media screen and (max-width: 860px) {
-li.active a{
-	transform: scale(none);
-}
-}
-
-@media screen and (max-width: 1020px) {
-	li.active a{
-		transform: scale(none);
-	}
+.boldStatement{
+	font: Raleway;
+	font-size: 4em;
 }
 
-@media screen and (max-width: 767px) {
-	li.active a{
-		transform: scale(none);
-	}
-}
-
-@media screen and (max-width: 620px) {
-	li.active a{
-		transform: scale(none);
-	}
-}
-
-@media screen and (max-width: 420px) {
-	li.active a{
-		transform: scale(none);
-	}
+.hideme
+{
+    origin: 'bottom';
+		distance: 25%;
+		duration: 1500;
+		delay: 0;
+		opacity: 100;
+		scale: 0.9;
+		mobile: true;
+		reset:false;
 }
