@@ -1,90 +1,86 @@
 /*
-boyOfGame Colors:
-Dark Gray: #8C858D
-light gray: #C3BEBA
-background green: #9bbc0f
-Green: #9bbc0f
-dark green: #0f380f
-Button magenta: #982659
-dark magenta: #5C1F3D
-
-
+salmon: #CC4444
+jet: #2F2F35
+gray: #C6C7CE
 */
 
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-
 html body{
-  background-color: #C3BEBA;
+  background: #2F2F35;
+  color: #CC4444;
 }
 
-.button {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin: auto;
-  padding: 0 px;
-  border-radius: 55px;
-  border-top: 0px solid #633A47;
-  border-right: 3px solid #633A47;
-  border-bottom: 5px solid #633A47;
-  border-left: 2px solid #633A47;
-  background-color: #91295F;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  float: right;
-  margin-right: 10px;
-  padding-bottom: 3px;
-  box-shadow: 0px 1px 1px 1px #8B858E;
-  transition: padding 0.1s, box-shadow 0.1s, height 0.1s;
+.navigationToggle {
+  background: #2F2F35;
+  color: #CC4444;
+  height: 45px;
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  padding-top: 2px;
+  bottom: 0;
+  border-top: 2px solid #CC4444;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  z-index: 2;
 }
 
-.button:hover {
-  box-shadow: 0 3px 0 #633A47, 0 5px 0px 2px #8B858E;
+.navigationSection {
+   height: 0vh;
+   width: 100vw;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #CC4444;
+   overflow: hidden;
+   transition: 0.3s;
+   text-align: left;
+   color: #0f380f;
+   font-family: 'Righteous', cursive;
+   font-size: 10vh;
 }
 
-.button:active {
-  height: 98px;
-  padding-bottom: 0px;
-  box-shadow: 0 3px 0 #262527, 0 0px 3px 3px #8B858E;
+#globe{
+  font-size: 30vh;
 }
-
-.sidenav {
-    height: 100%;
-    width: 0vw;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #9bbc0f;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 8px;
-    text-align: left;
-    color: #0f380f;
-    font-family: 'Press Start 2P', mono-space;
-    
-}
-
 .visible{
-  width: 50vw;
-  border: 15px solid #8C858D;
+  height: 100vh;
 }
 
-.sidenav a {
-    padding: 8px 8px 0px 0px;
-    text-decoration: none;
-    font-size: .1 em;
-    color: #0f380f;
+.color-swap{
+  background-color: #CC4444;
+  border-color: #2F2F35;
+  color: #2F2F35;
+}
+
+.nav-list{
+  list-style-type: none;
+  width: 100vw;
+  text-align: center;
+  padding-left: 0;
+}
+
+li {
+  display: block;
+}
+
+li a {
     display: block;
-    transition: 0.3s;
+    width: 100vw;
+    color: #2F2F35;
+    text-decoration: none;
 }
 
-.sidenav a:hover{
-    color: #9bbc0f;
-    background-color: #0f380f;
+li a:hover {
+    background-color: #2F2F35;
+    color: #C6C7CE;
+    text-decoration: none;
+    transition: background-color .2s ease-in;
 }
 
-.list-item{
-      list-style-type: none;
+.sectionA{
+    background-color: #2F2F35;
+    color: #CC4444;
+    height: 100vh;
 }
