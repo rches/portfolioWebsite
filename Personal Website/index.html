@@ -1,104 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Rob Cheseldine's Stuff</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  <script>window.sr = ScrollReveal();</script>
+<script src="JS/animations.js"></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway|Righteous" rel="stylesheet">
+  <title>Document</title>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
-<a href="#" id="menuButton" class="button"></a>
 
-<div class="side-bar">
-  <nav id="navMenu" class="sidenav">
-      <div id="drop-down">
-       <ul class="list-item">
-            <li><a href=#home class="list-item"><i class="material-icons">home</i>  home</a></li>
-            <li><a href="#about" class="list-item"><i class="material-icons">info</i>  aboutMe</a></li>
-            <li><a href="#skills" class="list-item"><i class="material-icons">brush</i>  skillSet</a></li>
-            <li><a href="#portfolio" class="list-item"><i class="material-icons">business_center</i>  portfolio</a></li>
-            <li><a href="#extracurricular" class="list-item"><i class="material-icons">terrain</i>  funStuff</a></li>
-            <li><a href="#contact" class="list-item"><i class="material-icons">mail</i>  contactMe</a></li>
-          </ul>
-          </div>
-    </nav>
+<a href="#" class="toggle">
+<div class="navigationToggle">
+<span class="glyphicon glyphicon-menu-hamburger"></span>
+</div>
+</a>
+
+
+
+
+<div id="bottomNav" class="navigationSection">
+  <ul class="nav-list">
+    <li><a href="#home" class="toggle">Home</a></li>
+    <li><a href="#about" class="toggle">About</a></li>
+    <li><a href="#skills" class="toggle">Skills</a></li>
+    <li><a href="#portfolio" class="toggle">Portfolio</a></li>
+    <li><a href="#personal" class="toggle">Personal</a></li>
+    <li><a href="#contact" class="toggle">Contact</a></li>
+  </ul>
+</div>
+
+
+  <div id="home" class="col-sm-6 sectionA">
+    <h1>This is where I type</h1>
+    <h2><span id="msgOne"/></h2>
+    <p id="globe"><span class="glyphicon glyphicon-globe"></span></p>
   </div>
 
-<div class = "container-fluid row col-md-12 headBanner" id="home">
-	<h1 class= "boldStatement">This is where I say hello.</h1>
-</div>
+  <div id="about" class="col-sm-6 sectionA">
+    <h1>Who am I?</h1>
+    <p>Professionally, I am a self-taught web developer exploring the world of JavaScript. Somewhere between web design and web development you can often find me. Had I known that mucking around with the innards of a website could be a career path, I would have taken MySpace page layouts a little more seriously.</p>
+  </div>
+
+    <div id="skills" class="col-sm-6 sectionA">
+      <h1>Skills</h1>
+      <h2><span id="msgOne"/></h2></div>
 
 
-<div class = "container-fluid row col-md-12 homeSectionOne" id="section1">
-  <p class = "hideme">lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...</p>
-
-</div>
-
-<div class = "container-fluid row col-md-12 homeSectionTwo" id="section2">
-  <p class= "hideme">lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...</p>
-</div>
-
-<div class = "container-fluid row col-md-12 homeSectionOne" id="section3">
-  <p class= "hideme">lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...</p>
+      <div id="portfolio" class="col-sm-6 sectionA">
+        <h1>THIS IS WHERE I console.log</h1>
+        <h2><span id="msgOne"/></h2></div>
 
 
-<div class = "container-fluid row col-md-12 homeSectionTwo" id="contactMe">
-  <div class = "container fluid row col-sm-3">test block area twitter</div>
-  <div class = "container fluid row col-sm-3">test block area twitter</div>
-  <div class = "container fluid row col-sm-3">test block area twitter</div>
-  <div class = "container fluid row col-sm-3">test block area twitter</div>
-</div>
 
-<script>
-  $(document).ready(function(){
-    // Add scrollspy to <body>
-    $('body').scrollspy({target: ".navbar", offset: 50});
+      <div id="personal" class="col-sm-6 sectionA">
+        <h1>Who am I?</h1>
+        <p>Professionally, I am a self-taught web developer exploring the world of JavaScript. Somewhere between web design and web development you can often find me. Had I known that mucking around with the innards of a website could be a career path, I would have taken my MySpace page layouts a little more seriously.</p>
+      </div>
 
-    // Add smooth scrolling on all links inside the navbar
-    $("#myNavbar a").on('click', function(event) {
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
+  <div id="contact" class="col-sm-6 sectionA">
+    <h1>Who am I?</h1>
+          <p>Professionally, I am a self-taught web developer exploring the world of JavaScript. Somewhere between web design and web development you can often find me. Had I known that mucking around with the innards of a website could be a career path, I would have taken my MySpace page layouts a little more seriously.</p>
+        </div>
 
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      }  // End if
-    });
-  });
-</script>
-
-<script>
-window.sr = ScrollReveal();
-sr.reveal('.hideme');
-</script>
-	
-	<script>
-		$( document ).ready(function() {
-    $('#menuButton').click(function(){
-      $('#navMenu').toggleClass("visible");
-  });
-});
-
-	</script>
 
 </body>
 </html>
